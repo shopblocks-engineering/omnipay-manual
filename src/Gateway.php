@@ -3,7 +3,7 @@
  * Manual Gateway
  */
 
-namespace Omnipay\Manual;
+namespace CJMillard\Manual;
 
 use Omnipay\Common\AbstractGateway;
 
@@ -65,41 +65,41 @@ class Gateway extends AbstractGateway
 
     public function getDefaultParameters()
     {
-        return array();
+        return [];
     }
 
-    public function authorize(array $parameters = array())
+    public function authorize(array $parameters = [])
     {
-        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
+        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
     }
 
-    public function purchase(array $parameters = array())
+    public function purchase(array $parameters = [])
     {
-        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
+        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
     }
 
-    public function completePurchase(array $parameters = array())
+    public function completePurchase(array $parameters = [])
     {
-        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
+        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
     }
 
-    public function completeAuthorise(array $parameters = array())
+    public function completeAuthorise(array $parameters = [])
     {
-        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
+        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
     }
 
-    public function capture(array $parameters = array())
+    public function capture(array $parameters = [])
     {
-        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
+        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
     }
 
-    public function void(array $parameters = array())
+    public function void(array $parameters = [])
     {
-        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
+        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
     }
 
-    public function refund(array $parameters = array())
+    public function refund(array $parameters = [])
     {
-        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
+        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
     }
 }
