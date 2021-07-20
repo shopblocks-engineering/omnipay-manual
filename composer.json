@@ -23,7 +23,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "CJMillard\\Manual\\" : "src/" }
+        "psr-4": { "CJMillard\\Omnipay\\Manual\\" : "src/" }
     },
     "require": {
         "omnipay/common": "^3.0"
