@@ -1,10 +1,4 @@
-# Omnipay: Manual
-
-**Manual driver for the Omnipay PHP payment processing library**
-
-[![Build Status](https://travis-ci.org/thephpleague/omnipay-manual.png?branch=master)](https://travis-ci.org/thephpleague/omnipay-manual)
-[![Latest Stable Version](https://poser.pugx.org/omnipay/manual/version.png)](https://packagist.org/packages/omnipay/manual)
-[![Total Downloads](https://poser.pugx.org/omnipay/manual/d/total.png)](https://packagist.org/packages/omnipay/manual)
+# Omnipay: Manual (Updated for omnipay 3)
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements Manual support for Omnipay.
@@ -17,7 +11,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "omnipay/manual": "~2.0"
+        "cjmillard/omnipay-manual": "^2.0"
     }
 }
 ```
