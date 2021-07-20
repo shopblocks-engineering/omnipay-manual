@@ -3,7 +3,7 @@
  * Manual Gateway
  */
 
-namespace CJMillard\Manual;
+namespace CJMillard\Omnipay\Manual;
 
 use Omnipay\Common\AbstractGateway;
 
