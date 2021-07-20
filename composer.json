@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/manual",
+    "name": "cjmillard/omnipay-manual",
     "type": "library",
     "description": "Manual driver for the Omnipay payment processing library",
     "keywords": [
@@ -10,26 +10,26 @@
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/thephpleague/omnipay-manual",
+    "homepage": "https://github.com/CJMillard/omnipay-manual",
     "license": "MIT",
     "authors": [
         {
-            "name": "Adrian Macneil",
-            "email": "adrian@adrianmacneil.com"
+            "name": "Cameron Millard",
+            "email": "cameron.shopblocks@gmail.com"
         },
         {
             "name": "Omnipay Contributors",
-            "homepage": "https://github.com/thephpleague/omnipay-manual/contributors"
+            "homepage": "https://github.com/CJMillard/omnipay-manual/contributors"
         }
     ],
     "autoload": {
-        "psr-4": { "Omnipay\\Manual\\" : "src/" }
+        "psr-4": { "CJMillard\\Manual\\" : "src/" }
     },
     "require": {
-        "omnipay/common": "^2.0||^3.0"
+        "omnipay/common": "^3.0"
     },
     "require-dev": {
-        "omnipay/tests": "^2.0||^3.0"
+        "omnipay/tests": "^3.0"
     },
     "extra": {
         "branch-alias": {
