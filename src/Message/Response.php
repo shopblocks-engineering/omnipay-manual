@@ -3,7 +3,7 @@
  * Manual Gateway Response
  */
 
-namespace Omnipay\Manual\Message;
+namespace CJMillard\Manual\Message;
 
 use Omnipay\Common\Message\AbstractResponse;
 
