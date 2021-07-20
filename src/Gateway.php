@@ -65,7 +65,9 @@ class Gateway extends AbstractGateway
 
     public function getDefaultParameters()
     {
-        return [];
+        return [
+            'testMode' => true
+        ];
     }
 
     public function authorize(array $parameters = [])
