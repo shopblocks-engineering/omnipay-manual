@@ -85,7 +85,7 @@ class Gateway extends AbstractGateway
         return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
     }
 
-    public function completeAuthorise(array $parameters = [])
+    public function completeAuthorize(array $parameters = [])
     {
         return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
     }
