@@ -11,7 +11,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "cjmillard/omnipay-manual": "^2.0"
+        "shopblocks-engineering/omnipay-manual": "^2.0"
     }
 }
 ```
