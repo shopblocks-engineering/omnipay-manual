@@ -1,5 +1,5 @@
 {
-    "name": "cjmillard/omnipay-manual",
+    "name": "shopblocks-engineering/omnipay-manual",
     "type": "library",
     "description": "Manual driver for the Omnipay payment processing library",
     "keywords": [
@@ -10,20 +10,16 @@
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/CJMillard/omnipay-manual",
+    "homepage": "https://github.com/shopblocks-engineering/omnipay-manual",
     "license": "MIT",
     "authors": [
         {
-            "name": "Cameron Millard",
-            "email": "cameron.shopblocks@gmail.com"
-        },
-        {
-            "name": "Omnipay Contributors",
-            "homepage": "https://github.com/CJMillard/omnipay-manual/contributors"
+            "name": "Shopblocks",
+            "email": "support@shopblocks.com"
         }
     ],
     "autoload": {
-        "psr-4": { "CJMillard\\Manual\\" : "src/" }
+        "psr-4": { "Omnipay\\Manual\\" : "src/" }
     },
     "require": {
         "omnipay/common": "^3.0"
