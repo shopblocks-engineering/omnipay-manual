@@ -3,7 +3,7 @@
  * Manual Gateway
  */
 
-namespace CJMillard\Manual;
+namespace Omnipay\Manual;
 
 use Omnipay\Common\AbstractGateway;
 
@@ -72,36 +72,36 @@ class Gateway extends AbstractGateway
 
     public function authorize(array $parameters = [])
     {
-        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
+        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
     }
 
     public function purchase(array $parameters = [])
     {
-        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
+        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
     }
 
     public function completePurchase(array $parameters = [])
     {
-        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
+        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
     }
 
     public function completeAuthorize(array $parameters = [])
     {
-        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
+        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
     }
 
     public function capture(array $parameters = [])
     {
-        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
+        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
     }
 
     public function void(array $parameters = [])
     {
-        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
+        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
     }
 
     public function refund(array $parameters = [])
     {
-        return $this->createRequest('\CJMillard\Manual\Message\Request', $parameters);
+        return $this->createRequest('\Omnipay\Manual\Message\Request', $parameters);
     }
 }
